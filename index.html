@@ -7,6 +7,8 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
+  gtag('set', {'user_id': 'USER_ID'}); // Set the user ID using signed-in user_id.
+  ga('set', 'userId', 'USER_ID'); // Set the user ID using signed-in user_id.
 
   gtag('config', 'UA-132857300-1');
 </script>
@@ -45,7 +47,7 @@
             -o-transform: translate3d(0,0,0);
             transform: translate3d(0,0,0);
         }
-        @keyframes snow {
+        @keyframes snow {	
           0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
           100% {background-position: 50000px 50000px, 10000px 20000px, -10000px 15000px;}          
         }
