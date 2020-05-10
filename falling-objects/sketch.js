@@ -35,7 +35,7 @@ function setup() {
   buttonStart.position(10, canvasLength + 10);
   buttonStart.mousePressed(gameStart); // Draw new game button that calls the function gameStart if pressed
   
-  audio = new Audio('https://enormous.fail/fGHMxYe.mp3')
+  audio = new Audio('https://an.enormous.fail/fGHMxYe.mp3')
 }
 
 function gameStart() {
